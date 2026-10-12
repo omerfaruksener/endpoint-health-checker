@@ -1,0 +1,8 @@
+# Python önbellek dosyaları
+__pycache__/
+*.py[cod]
+
+# Sanal Ortam
+venv/
+.venv/
+env/

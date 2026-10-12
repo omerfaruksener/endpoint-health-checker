@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "https://www.google.com",
+    "https://api.github.com",
+    "http://127.0.0.1:8000/health",
+    "https://httpbin.org/delay/5"
+  ]
+
+}
+  
