@@ -91,7 +91,7 @@ if __name__ == "__main__":
     print(f"Sistem Sağlık Taramasi Basliyor... (Timeout: {args.timeout} sn)")
     print("-" * 65)
 
-    # NEW: MULTI-THREADING (ROTA B)
+    # NEW: MULTI-THREADING
     #max workers(threads) = 10
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         future_tasks = {
