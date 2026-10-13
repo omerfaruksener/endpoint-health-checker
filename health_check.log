@@ -1,0 +1,25 @@
+2026-10-13 11:51:29 - [ UP ] [HTTP] https://www.google.com              478 ms
+2026-10-13 11:51:29 - [ UP ] [HTTP] https://api.github.com              195 ms
+2026-10-13 11:51:30 - [DOWN] [HTTP] http://127.0.0.1:8000/health        (Baglanti Hatasi!)
+2026-10-13 11:51:38 - [TIMEOUT] [HTTP] https://httpbin.org/delay/5      (3 saniyede cevap vermedi!)
+2026-10-13 11:51:38 - [ UP ] [TCP] tcp://1.1.1.1:53                    9 ms
+2026-10-13 11:51:39 - [DOWN] [TCP] tcp://127.0.0.1:5432                (Baglanti Hatasi!)
+2026-10-13 14:28:13 - [ UP ] [HTTP] https://www.google.com              518 ms
+2026-10-13 14:28:14 - [ UP ] [HTTP] https://api.github.com              365 ms
+2026-10-13 14:28:15 - [DOWN] [HTTP] http://127.0.0.1:8000/health        (Baglanti Hatasi!)
+2026-10-13 14:28:31 - [TIMEOUT] [HTTP] https://httpbin.org/delay/5      (3 saniyede cevap vermedi!)
+2026-10-13 14:28:31 - [ UP ] [TCP] tcp://1.1.1.1:53                    16 ms
+2026-10-13 14:28:32 - [DOWN] [TCP] tcp://127.0.0.1:5432                (Baglanti Hatasi!)
+2026-10-13 14:37:28 - [RETRY] http://127.0.0.1:8000/health yanit vermedi. Tekrar deneniyor... (1/2)
+2026-10-13 14:37:28 - [RETRY] tcp://127.0.0.1:5432 yanit vermedi. Tekrar deneniyor... (1/2)
+2026-10-13 14:37:31 - [RETRY] https://httpbin.org/delay/5 yanit vermedi. Tekrar deneniyor... (1/2)
+2026-10-13 14:37:36 - [TIMEOUT] [HTTP] https://httpbin.org/delay/5      (3 saniyede cevap vermedi!)
+2026-10-13 14:40:52 - [RETRY] http://127.0.0.1:8000/health yanit vermedi. Tekrar deneniyor... (1/2)
+2026-10-13 14:40:52 - [RETRY] tcp://127.0.0.1:5432 yanit vermedi. Tekrar deneniyor... (1/2)
+2026-10-13 14:40:52 - [ UP ] [TCP] tcp://1.1.1.1:53                    10 ms
+2026-10-13 14:40:53 - [ UP ] [HTTP] https://api.github.com              385 ms
+2026-10-13 14:40:53 - [ UP ] [HTTP] https://www.google.com              519 ms
+2026-10-13 14:40:53 - [DOWN] [HTTP] http://127.0.0.1:8000/health        (Baglanti Hatasi!)
+2026-10-13 14:40:53 - [DOWN] [TCP] tcp://127.0.0.1:5432                (Baglanti Hatasi!)
+2026-10-13 14:40:56 - [RETRY] https://httpbin.org/delay/5 yanit vermedi. Tekrar deneniyor... (1/2)
+2026-10-13 14:41:00 - [TIMEOUT] [HTTP] https://httpbin.org/delay/5      (3 saniyede cevap vermedi!)
